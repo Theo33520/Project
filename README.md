@@ -11,7 +11,7 @@
 
 **To manage the elements of your gaming platform at runtime, both the graphics libraries and the games must be implemented as dynamic libraries, loaded during execution. Each available GUI for the program should also be implemented as a shared library, which will be loaded and utilized dynamically by the main program.**
 
-## How to run it?
+## 🛠️ How to Run It?
 
 🖥️ `make fclean && make`
 
@@ -40,7 +40,7 @@ Collision Management: The program must handle the fact that ants cannot pass eac
 
 Movement Display: After calculating the optimal paths, the program sequentially displays the movements of the ants, showing how each ant progresses from the start room to the end room.
 
-## How to run it?
+## 🛠️ How to Run It?
 
 🖥️ `make fclean && make`
 
@@ -67,7 +67,7 @@ Input Fields:
     
     ● Forgot Password Link: A link that directs users to a page where they can recover or reset their forgotten password.
 
-## Build 
+##Build 
 
 Dependencies: 
 
@@ -75,9 +75,66 @@ Dependencies:
 `npm install react-router-dom`
 
 
-## How to run it?
+## 🛠️ How to Run It?
 
 🖥️ `cd backend/ -> 🔷 node server.js`
 
 🖥️ `cd frontend/ -> 🔷 npm start`
 
+
+# RPG Development Project Overview 🌄
+
+## 🎯 Objective
+Create a complete RPG game that showcases the skills you and your team have acquired throughout the year. This project is designed to challenge your ability to integrate and apply your knowledge in game development.
+
+## 📜 Requirements
+
+### ⚔️ Combat System
+- **Implement a combat system** where player statistics influence the outcome of battles against enemies.
+
+### 🧑‍🤝‍🧑 Non-Playable Characters (NPCs)
+- **Include NPCs** within the game world for player interaction.
+
+### 🗺️ Quest Implementation
+- **Develop and integrate at least one quest** that players can undertake.
+
+### 🎒 Inventory Management
+- **Create an inventory system** with a limited number of item slots for the player.
+
+### 📈 Experience and Leveling Up
+- **Allow players to earn experience points** through combat and quest completion. Accumulating enough experience should enable players to level up and enhance their attributes.
+
+## 🚫 Constraints
+- You are **restricted from using certain functions**, including `printf`. You'll need to find alternative methods to display information and debug your game.
+
+---
+
+## 🛠️ How to Run It?
+
+🖥️ `make fclean && make`
+
+🔷 `./rpg`
+
+
+# 🍪 Cookie Clicker Game Overview
+
+## 🎮 Gameplay Introduction
+
+**Click on the Big Cookie:**
+
+The primary action in the game involves clicking on a large cookie displayed on the screen. Each click generates a certain number of cookies. 🍪
+
+**Accumulating Cookies:**
+
+By clicking on the cookie, you accumulate cookies, which serve as the main currency in the game. 💰
+
+## 🌟 Key Features
+
+- **🍪 Cookie Production:** Clicking on the big cookie produces cookies, allowing you to build up your cookie count.
+- **🔧 Upgrades:** Use the cookies you collect to purchase upgrades and other items to enhance your gameplay.
+
+
+
+## 🛠️ How to Run It?
+
+- Load page html
