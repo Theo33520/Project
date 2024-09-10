@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/home/tfages/project-react-api-efrei/frontend/src/bag.jpg') no-repeat;
+    background: url('/home/tfages/Project-Théo/Project/PAGE-LOGIN-REACT/frontend/src/bag.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

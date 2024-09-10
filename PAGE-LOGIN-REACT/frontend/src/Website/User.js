@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import './user.css';
-import backgroundImage from '/home/tfages/project-react-api-efrei/frontend/src/bag.jpg'
+import backgroundImage from '/home/tfages/Project-Théo/Project/PAGE-LOGIN-REACT/frontend/src/bag.jpg'
 
 const User = () => {
   const { username } = useParams();

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './style.css';
-import backgroundImage from '/home/tfages/project-react-api-efrei/frontend/src/bag.jpg'
+import backgroundImage from '/home/tfages/Project-Théo/Project/PAGE-LOGIN-REACT/frontend/src/bag.jpg'
 
 const Home = () => {
   const [message, setMessage] = useState('');
