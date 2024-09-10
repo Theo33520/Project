@@ -1,0 +1,29 @@
+
+
+.red-bg {
+    background-color: red;
+    color: blue;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: yellow;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+

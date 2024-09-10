@@ -1,0 +1,29 @@
+
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+.fa-moon,
+.fa-sun {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.fa-moon:hover,
+.fa-sun:hover {
+    opacity: .5;
+}

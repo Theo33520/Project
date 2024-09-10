@@ -1,0 +1,8 @@
+
+.fa-eye {
+    cursor: pointer;
+}
+
+.fa-eye:hover {
+    color: green;
+}
