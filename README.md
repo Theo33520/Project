@@ -67,7 +67,7 @@ Input Fields:
     
     ● Forgot Password Link: A link that directs users to a page where they can recover or reset their forgotten password.
 
-##Build 
+## Build 
 
 Dependencies: 
 
