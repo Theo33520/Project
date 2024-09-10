@@ -50,11 +50,13 @@ Movement Display: After calculating the optimal paths, the program sequentially 
 
 
 
-## Login Tempalte
+## Login Template
+
 
 Login Form:
 
 Input Fields:
+
     ● Username or Email: A text field where users enter their username or email address.
     
     ● Password: A text field for entering the password, often accompanied by an eye icon to toggle visibility for ease of entry.
@@ -64,6 +66,14 @@ Input Fields:
     ● Remember Me Option: A checkbox that allows users to stay logged in for a certain period.
     
     ● Forgot Password Link: A link that directs users to a page where they can recover or reset their forgotten password.
+
+##Build 
+
+Dependencies: 
+
+`npm -y init in the file backend/`
+`npm install react-router-dom`
+
 
 ## How to run it?
 
