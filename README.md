@@ -48,3 +48,26 @@ Movement Display: After calculating the optimal paths, the program sequentially 
 
 🔷 `./lem_in < map/new_anthill`
 
+
+
+## Login Tempalte
+
+Login Form:
+
+Input Fields:
+    ● Username or Email: A text field where users enter their username or email address.
+    
+    ● Password: A text field for entering the password, often accompanied by an eye icon to toggle visibility for ease of entry.
+    
+    ● Login Button: A clickable button to submit the login information.
+    
+    ● Remember Me Option: A checkbox that allows users to stay logged in for a certain period.
+    
+    ● Forgot Password Link: A link that directs users to a page where they can recover or reset their forgotten password.
+
+## How to run it?
+
+🖥️ `cd backend/ -> 🔷 node server.js`
+
+🖥️ `cd frontend/ -> 🔷 npm start`
+
