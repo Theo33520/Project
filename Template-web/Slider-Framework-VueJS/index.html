@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Démo Vue</title>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+
+	</head>
+	<body>
+		<div id="app">
+            <div id="slider">
+                <i class="fa-solid fa-chevron-left"  @click="previous()"></i>
+                <img :src="slides[currentSlide].src" :alt="slides[0].src">
+                <i class="fa-solid fa-chevron-right" @click="next()"></i>
+            </div>
+        </div>
+        <script>
+            const app = Vue.createApp({
+                data() {
+                    return {
+                        slides: [
+                            {
+                                id: 1,
+                                src: 'https://picsum.photos/800/500',
+                                alt: 'Slide 1'
+                            },
+                            {
+                                id: 2,
+                                src: 'https://picsum.photos/400/500',
+                                alt: 'Slide 2'
+                            },
+                            {
+                                id: 3,
+                                src: 'https://picsum.photos/300/500',
+                                alt: 'Slide 3'
+                            },
+                        ],
+                        currentSlide: 0
+                    }
+                },
+                methods: {
+                    next() {
+                        this.currentSlide === this.slides.length - 1 ? this.currentSlide = 0 : this.currentSlide += 1;
+                    }, 
+                    previous() {
+                        this.currentSlide === 0 ? this.currentSlide = this.slides.length - 1 : this.currentSlide -= 1;
+                    }
+                }
+            }).mount("#app");
+        </script>
+	</body>
+</html>

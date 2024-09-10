@@ -1,0 +1,29 @@
+
+#app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 768px;
+}
+
+img{
+    width: 100%;
+}
+
+i {
+    font-size: 3rem;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+i:hover {
+    opacity: .3;
+    transform: scale(1.5);
+}
